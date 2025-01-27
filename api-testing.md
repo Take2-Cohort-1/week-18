@@ -195,5 +195,3 @@ test("GET /api/users returns fixture data", async () => {
 
 <!-- - Minimizes side effects between tests - Some use in-memory DBs (sqlite) or mocking -->
 
-<!-- The pdf does not load on github, but it does if I open it in VS Code -->
-
