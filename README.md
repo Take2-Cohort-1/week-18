@@ -14,15 +14,12 @@
 
 ## Materials
 
-- ![Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
-- ![Best Practices](https://www.pynt.io/learning-hub/api-testing-guide/top-10-api-testing-best-practices-in-2024)
+- [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
+- [Best Practices](https://www.pynt.io/learning-hub/api-testing-guide/top-10-api-testing-best-practices-in-2024)
+- [MongoDB in 100 seconds](https://www.youtube.com/watch?v=-bt_y4Loofg)
+- [Learn MongoDB in 1 hour](https://www.youtube.com/watch?v=c2M-rlkkT5o)
 
 ## Assignments
 
-- A short presentation including:
-  - your approach to test-driven development
-  - your top _three_ best practices for API testing
-
-## Your Achievements for this week
-
+- A short presentation (3 slides max): your approach to test-driven development
 - Project "Todo-API-Express"
