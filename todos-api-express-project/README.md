@@ -29,7 +29,7 @@ For every step:
 
 - Create a new project & repo: `todo-express`
 - Use this getting started guide: https://bun.sh/guides/ecosystem/express
-- Use `index.ts` as the base file for your server. Using TypeScript is optional.
+- Create a `index.ts` file as the base file for your server. Using TypeScript is optional.
 - Install necessary dependencies, including Express, and mongoose
 - Install Docker Desktop if you have not yet; then to start MongoDB in a
   container:
@@ -40,7 +40,7 @@ For every step:
 - `docker stop mongodb` to stop the container
 - `docker start mongodb` to start the container again, e.g. after a reboot
 - Check if mongodb is running. The following command should output a 1 to the
-  terminal: `mongosh --eval 'db.runCommand("ping").ok' localhost:27017`
+  terminal: `docker exec mongodb mongosh --eval 'db.runCommand("ping").ok' localhost:27017`
 - Run your server with `NODE_ENV=test bun --watch index.ts`. This will restart
   the server when you make changes.
 - Make sure your server uses `NODE_ENV` to determine which DB it connects to.
